@@ -21,15 +21,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={`${inter.className} flex flex-col min-h-screen`}
+      >
         <Toaster position="top-center" />
         <Header />
         <MotionDiv
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
+          className="flex-grow"
         >
-          <main>{children}</main>
+          <main className="flex flex-col flex-grow">{children}</main>
         </MotionDiv>
         <Footer />
       </body>

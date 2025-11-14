@@ -25,7 +25,7 @@ const AboutPage = () => {
               create meaningful experiences.
             </p>
             <p className="mt-4">
-              When I'm not coding, you can find me exploring the latest tech
+              When I&apos;m not coding, you can find me exploring the latest tech
               trends, contributing to open-source projects, or enjoying a good
               cup of coffee.
             </p>
