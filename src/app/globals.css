@@ -130,7 +130,11 @@
     scroll-padding-top: 5rem;
   }
 
-  body {
+  html {
+  scroll-behavior: smooth;
+}
+
+body {
     @apply bg-background text-foreground antialiased;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
