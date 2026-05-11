@@ -29,7 +29,7 @@ export default function PortfolioPage() {
       <ProjectFilter 
         categories={[...CATEGORIES]} 
         activeCategory={activeCategory} 
-        setActiveCategory={setActiveCategory} 
+        setActiveCategory={(category) => setActiveCategory(category as typeof CATEGORIES[number])} 
       />
 
       <motion.div 

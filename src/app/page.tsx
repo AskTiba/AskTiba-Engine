@@ -22,17 +22,17 @@ export default function Home() {
 
           {/* Headline */}
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            I build <span className="gradient-text">systems</span> that <br className="hidden md:block" />
-            developers love.
+            Engineering high-fidelity <br className="hidden md:block" />
+            <span className="gradient-text">systems & ecosystems.</span>
           </h1>
 
           {/* Typewriter Subtitle */}
           <div className="text-xl md:text-2xl text-muted-foreground mb-10 h-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
             <TypewriterEffect 
               phrases={[
-                "Systems & DX Engineer",
-                "Full-Stack Architect",
-                "React & Next.js Expert"
+                "Bridging complex logic with premium UI.",
+                "Architecting scalable Developer Experience.",
+                "Frontend Systems & DX Infrastructure Engineer."
               ]}
             />
           </div>

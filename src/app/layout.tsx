@@ -39,25 +39,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${jetbrains.variable} font-sans flex flex-col min-h-screen`}
+        className={`${inter.variable} ${jetbrains.variable} font-sans flex flex-col min-h-screen bg-background text-text selection:bg-electric/30 selection:text-white`}
+        suppressHydrationWarning
       >
-        <Toaster
-          position="top-center"
-          toastOptions={{
-            style: {
-              background: "#1E293B",
-              color: "#E2E8F0",
-              border: "1px solid rgba(148, 163, 184, 0.12)",
-            },
-          }}
-        />
         <Header />
-        <PageWrapper>
-          <main className="flex flex-col flex-grow">{children}</main>
-        </PageWrapper>
+        <main className="flex-grow">
+          <PageWrapper>{children}</PageWrapper>
+        </main>
         <Footer />
+        <Toaster position="bottom-right" toastOptions={{
+          style: {
+            background: 'rgba(10, 10, 15, 0.8)',
+            color: '#fff',
+            border: '1px solid rgba(255, 255, 255, 0.1)',
+            backdropFilter: 'blur(10px)',
+          }
+        }} />
       </body>
     </html>
   );

@@ -5,6 +5,7 @@ import * as SlotPrimitive from "@radix-ui/react-slot"
 import {
   Controller,
   ControllerProps,
+  FieldPath,
   FieldValues,
   FormProvider,
   useFormContext,
@@ -17,7 +18,7 @@ const Form = FormProvider
 
 type FormFieldContextValue<
   TFieldValues extends FieldValues = FieldValues,
-  TName extends React.Path<TFieldValues> = React.Path<TFieldValues>
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
 > = {
   name: TName
 }
@@ -28,7 +29,7 @@ const FormFieldContext = React.createContext<FormFieldContextValue>(
 
 const FormField = <
   TFieldValues extends FieldValues = FieldValues,
-  TName extends React.Path<TFieldValues> = React.Path<TFieldValues>
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>
 >({
   ...props
 }: ControllerProps<TFieldValues, TName>) => {
