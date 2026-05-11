@@ -36,6 +36,9 @@ const Footer = () => {
               <li>
                 <Link href="/contact" className="text-muted-foreground hover:text-electric transition-colors">Request CV</Link>
               </li>
+              <li>
+                <Link href="/admin/career" className="text-muted-foreground/50 hover:text-electric transition-colors text-xs italic">Dashboard</Link>
+              </li>
             </ul>
           </nav>
 
