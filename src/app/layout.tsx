@@ -1,17 +1,40 @@
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { MotionDiv } from "@/components/Motion";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const jetbrains = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
-  title: "Tony's Portfolio",
-  description: "A modern developer portfolio.",
+  title: {
+    default: "Anthony Tibamwenda | Systems & DX Engineer",
+    template: "%s | Anthony Tibamwenda",
+  },
+  description:
+    "Full-stack engineer specializing in high-performance frontend systems, developer tooling, and real-time data orchestration. React 19, Next.js 15, TypeScript.",
+  keywords: [
+    "Software Engineer",
+    "Full-Stack Developer",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Developer Tools",
+    "Portfolio",
+  ],
 };
 
 export default function RootLayout({
@@ -20,11 +43,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
-        className={`${inter.className} flex flex-col min-h-screen`}
+        className={`${inter.variable} ${jetbrains.variable} font-sans flex flex-col min-h-screen`}
       >
-        <Toaster position="top-center" />
+        <Toaster
+          position="top-center"
+          toastOptions={{
+            style: {
+              background: "#1E293B",
+              color: "#E2E8F0",
+              border: "1px solid rgba(148, 163, 184, 0.12)",
+            },
+          }}
+        />
         <Header />
         <MotionDiv
           initial={{ opacity: 0 }}
