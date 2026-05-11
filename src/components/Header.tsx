@@ -80,10 +80,10 @@ const Header = () => {
           <div className="w-px h-6 bg-border" />
 
           <Button variant="outline" className="gap-2 border-electric/20 hover:bg-electric/10 hover:text-electric" asChild>
-            <a href="/static/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Link href="/contact">
               <Download className="w-4 h-4" />
-              Resume
-            </a>
+              Request CV
+            </Link>
           </Button>
         </nav>
 
@@ -128,10 +128,10 @@ const Header = () => {
               </ul>
               
               <Button className="mt-4 gap-2" size="lg" asChild>
-                <a href="/static/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Link href="/contact">
                   <Download className="w-5 h-5" />
-                  Download Resume
-                </a>
+                  Request CV
+                </Link>
               </Button>
             </motion.div>
           )}

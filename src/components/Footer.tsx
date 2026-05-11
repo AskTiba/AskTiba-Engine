@@ -67,10 +67,10 @@ const Footer = () => {
         {/* Legal */}
         <div className="mt-12 pt-8 border-t border-border/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground font-mono">
-            © {currentYear} Anthony Tibamwenda. Built with Next.js 15 & Tailwind v4.
+            © {currentYear} AskTiba-Engine | Anthony Tibamwenda.
           </p>
           <div className="flex gap-6 text-xs text-muted-foreground font-mono">
-            <span>Fort Portal, Uganda</span>
+            <span>Kampala, Uganda</span>
             <span>Systems & DX Engineering</span>
           </div>
         </div>

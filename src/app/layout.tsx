@@ -17,8 +17,8 @@ const jetbrains = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Anthony Tibamwenda | Systems & DX Engineer",
-    template: "%s | Anthony Tibamwenda",
+    default: "AskTiba-Engine | Anthony Tibamwenda",
+    template: "%s | AskTiba-Engine",
   },
   description:
     "Full-stack engineer specializing in high-performance frontend systems, developer tooling, and real-time data orchestration. React 19, Next.js 15, TypeScript.",
