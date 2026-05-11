@@ -25,7 +25,7 @@ const EXPERIENCE = [
     date: "2022 – Present",
     description: (
       <>
-        <p className="mb-2">Completed multiple intensive 6-week "Voyage" cycles, simulating a high-growth startup environment.</p>
+        <p className="mb-2">Completed multiple intensive 6-week &quot;Voyage&quot; cycles, simulating a high-growth startup environment.</p>
         <ul className="list-disc list-outside pl-4 space-y-1 text-left">
           <li>Led and participated in daily standups, sprint planning, and retrospectives (Agile Mastery).</li>
           <li>Managed complex Git workflows, including peer PR reviews, branch protection, and conflict resolution.</li>
@@ -62,7 +62,7 @@ const AboutPage = () => {
           I bridge the gap between <span className="gradient-text">Mathematical Rigor</span> and <span className="gradient-text-amber">Infrastructure.</span>
         </h1>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          I am a Systems & DX Engineer specializing in high-performance frontend systems, developer tooling, and real-time data orchestration. My "unfair advantage" is combining mathematical logic (like ELO engines and algorithms) with robust infrastructure (Monorepos, modern frameworks).
+          I am a Systems & DX Engineer specializing in high-performance frontend systems, developer tooling, and real-time data orchestration. My &quot;unfair advantage&quot; is combining mathematical logic (like ELO engines and algorithms) with robust infrastructure (Monorepos, modern frameworks).
         </p>
       </div>
 
@@ -114,7 +114,7 @@ const AboutPage = () => {
 
       {/* Bottom CTA */}
       <div className="mt-24 pt-12 border-t border-border/50 text-center animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-        <h3 className="text-2xl font-bold mb-6">Ready to see what I've built?</h3>
+        <h3 className="text-2xl font-bold mb-6">Ready to see what I&apos;ve built?</h3>
         <a 
           href="/portfolio" 
           className="inline-flex items-center justify-center h-12 px-8 font-medium rounded-md bg-electric text-white hover:bg-electric-light transition-colors"

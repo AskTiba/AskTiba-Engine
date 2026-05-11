@@ -53,7 +53,7 @@ export const ProjectCard = ({
             <div className="p-3 rounded-lg bg-background/50 border border-border/50">
               <p className="text-xs font-mono text-amber mb-1 uppercase tracking-wider">The Hard Problem</p>
               <p className="text-sm text-text/80 leading-relaxed italic">
-                "{hardProblem}"
+                &quot;{hardProblem}&quot;
               </p>
             </div>
             

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import ProjectCard from "@/components/ProjectCard";
 import { ProjectFilter } from "@/components/ProjectFilter";
-import { portfolioData, Project } from "@/lib/portfolio-data";
+import { portfolioData } from "@/lib/portfolio-data";
 import { motion, AnimatePresence } from "framer-motion";
 
 const CATEGORIES = ["All", "DX/Tooling", "Full-Stack", "Real-time", "Mobile"] as const;

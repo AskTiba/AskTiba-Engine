@@ -16,7 +16,6 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
-import { motion } from "framer-motion";
 import { Send, Loader2 } from "lucide-react";
 
 const formSchema = z.z.object({
@@ -52,7 +51,7 @@ export const ContactForm = () => {
 
       toast.success("Message sent successfully! I'll get back to you soon.");
       form.reset();
-    } catch (error) {
+    } catch {
       toast.error("Something went wrong. Please try again later or email me directly.");
     } finally {
       setIsSubmitting(false);

@@ -16,10 +16,10 @@ export default function ContactPage() {
           {/* Left Column: Contact Info */}
           <div className="animate-fade-in-up">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Let's <span className="gradient-text">Connect.</span>
+              Let&apos;s <span className="gradient-text">Connect.</span>
             </h1>
             <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
-              Whether you have a specific project in mind, a complex engineering problem to solve, or just want to talk about DX and systems architecture—I'm always open to meaningful conversations.
+              Whether you have a specific project in mind, a complex engineering problem to solve, or just want to talk about DX and systems architecture—I&apos;m always open to meaningful conversations.
             </p>
 
             <div className="space-y-8">
@@ -44,7 +44,9 @@ export default function ContactPage() {
                   <p className="text-xl font-medium text-text">
                     Fort Portal, Uganda
                   </p>
-                  <p className="text-muted-foreground text-sm">(GMT+3)</p>
+                  <p className="text-muted-foreground italic leading-relaxed">
+                    &quot;Solving this required a custom middleware to orchestrate PDF generation across distributed serverless nodes.&quot;
+                  </p>
                 </div>
               </div>
             </div>

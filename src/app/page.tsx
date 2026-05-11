@@ -16,7 +16,7 @@ export default function Home() {
           {/* Badge */}
           <div className="mb-6 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
             <span className="code-badge">
-              <span className="text-amber">const</span> identity <span className="text-amber">=</span> "Anthony Tibamwenda";
+              <span className="text-amber">const</span> identity <span className="text-amber">=</span> &quot;Anthony Tibamwenda&quot;;
             </span>
           </div>
 

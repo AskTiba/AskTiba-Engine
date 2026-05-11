@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 interface ProjectFilterProps {
   categories: string[];
   activeCategory: string;
-  setActiveCategory: (category: any) => void;
+  setActiveCategory: (category: string) => void;
 }
 
 export const ProjectFilter = ({
