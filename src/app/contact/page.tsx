@@ -29,8 +29,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-sm font-mono text-amber uppercase tracking-widest mb-1">Email</h3>
-                  <a href="mailto:tony@example.com" className="text-xl font-medium hover:text-electric transition-colors">
-                    tony@example.com
+                  <a href="mailto:anthonyngisiro@gmail.com" className="text-xl font-medium hover:text-electric transition-colors">
+                    anthonyngisiro@gmail.com
                   </a>
                 </div>
               </div>
@@ -42,11 +42,9 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-sm font-mono text-amber uppercase tracking-widest mb-1">Location</h3>
                   <p className="text-xl font-medium text-text">
-                    Fort Portal, Uganda
+                    Kampala, Uganda
                   </p>
-                  <p className="text-muted-foreground italic leading-relaxed">
-                    &quot;Solving this required a custom middleware to orchestrate PDF generation across distributed serverless nodes.&quot;
-                  </p>
+                  <p className="text-muted-foreground text-sm">(GMT+3)</p>
                 </div>
               </div>
             </div>

@@ -34,7 +34,7 @@ const Footer = () => {
                 <Link href="/contact" className="text-muted-foreground hover:text-electric transition-colors">Contact</Link>
               </li>
               <li>
-                <a href="/static/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-electric transition-colors">Resume</a>
+                <Link href="/contact" className="text-muted-foreground hover:text-electric transition-colors">Request CV</Link>
               </li>
             </ul>
           </nav>
