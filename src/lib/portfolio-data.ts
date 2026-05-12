@@ -4,7 +4,7 @@ export interface Project {
   techStack: string[];
   seniorSignal: string;
   hardProblem: string;
-  category: "DX/Tooling" | "Full-Stack" | "Real-time" | "Mobile";
+  category: "DX/Tooling" | "Web Systems" | "Real-time" | "Mobile";
   links: {
     github: string;
     live: string;

@@ -6,7 +6,7 @@ import { ProjectFilter } from "@/components/ProjectFilter";
 import { portfolioData } from "@/lib/portfolio-data";
 import { motion, AnimatePresence } from "framer-motion";
 
-const CATEGORIES = ["All", "DX/Tooling", "Full-Stack", "Real-time", "Mobile"] as const;
+const CATEGORIES = ["All", "DX/Tooling", "Web Systems", "Real-time", "Mobile"] as const;
 
 export default function PortfolioPage() {
   const [activeCategory, setActiveCategory] = useState<typeof CATEGORIES[number]>("All");
