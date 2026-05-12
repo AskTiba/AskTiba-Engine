@@ -21,7 +21,7 @@ export const portfolioData: Project[] = [
     seniorSignal: "Data Visualization & Complex State",
     hardProblem:
       "Transformed high-dimensional raw API data into intuitive, interactive visual conversion funnels with complex state management.",
-    category: "Full-Stack",
+    category: "Web Systems",
     links: {
       github: "https://github.com/AskTiba/Applytics",
       live: "https://applytics-01.vercel.app/dashboard",
@@ -61,7 +61,7 @@ export const portfolioData: Project[] = [
     seniorSignal: "Complex Domain Modeling & Logic",
     hardProblem:
       "Implemented the 'Grand Prix Engine'—a high-performance mathematical utility for calculating real-time ELO rankings and standings.",
-    category: "Full-Stack",
+    category: "Web Systems",
     links: {
       github: "https://github.com/AskTiba/ChessFed-Ug",
       live: "https://chess-fed-ug.vercel.app/",
@@ -90,7 +90,7 @@ export const portfolioData: Project[] = [
     seniorSignal: "Performance Optimization & Real-time State",
     hardProblem:
       "Engineered a precise WPM calculation engine with zero-latency visual feedback for rapid keystroke events.",
-    category: "Full-Stack",
+    category: "Web Systems",
     links: {
       github: "https://github.com/AskTiba/type-speed-lab",
       live: "https://type-speed-lab.vercel.app/",
@@ -104,7 +104,7 @@ export const portfolioData: Project[] = [
     seniorSignal: "External Service Integration & Dynamic UI",
     hardProblem:
       "Implemented a robust geolocation-based data fetching layer with adaptive UI components that respond to real-time weather conditions.",
-    category: "Full-Stack",
+    category: "Web Systems",
     links: {
       github: "https://github.com/AskTiba/Weather-Now",
       live: "https://weather-now-sand-three.vercel.app/",
@@ -138,7 +138,7 @@ export const portfolioData: Project[] = [
     seniorSignal: "Collaborative Full-Stack Engineering",
     hardProblem:
       "Coordinated real-time API integrations and complex state updates in a cross-functional team environment under tight deadlines.",
-    category: "Full-Stack",
+    category: "Web Systems",
     links: {
       github: "https://github.com/AskTiba/Worksy",
       live: "https://github.com/AskTiba/Worksy",
